@@ -227,7 +227,7 @@ export default AdComponent.extend({
     } */
     let slotNum = getNextSlotNum();
      // return `didna_slot_${slotNum}`;
-     return `inline_${slotNum}`;
+     return `inline_${slotNum} ${placement}`;
       
   },
 
