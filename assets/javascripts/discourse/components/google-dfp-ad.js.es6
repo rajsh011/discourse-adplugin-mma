@@ -226,8 +226,13 @@ export default AdComponent.extend({
       return `skyscraper_1`;
     } */
     let slotNum = getNextSlotNum();
+
+    if( placement == "topic-above-post-stream" || placement == "topic-list-top" ){
+        return 'leaderboard_1';
+    }
+
      // return `didna_slot_${slotNum}`;
-     return `inline_${slotNum} ${placement}`;
+     return `inline_${slotNum}`;
       
   },
 
