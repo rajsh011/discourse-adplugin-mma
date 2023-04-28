@@ -226,7 +226,9 @@ export default AdComponent.extend({
       return `skyscraper_1`;
     } */
     let slotNum = getNextSlotNum();
-      return `didna_slot_${slotNum}`;
+     // return `didna_slot_${slotNum}`;
+     return `inline_${slotNum}`;
+      
   },
 
   @discourseComputed("placement", "showAd")
