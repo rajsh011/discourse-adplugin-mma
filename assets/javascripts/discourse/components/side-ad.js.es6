@@ -16,9 +16,11 @@ export default AdComponent.extend({
   @discourseComputed()
   divId(){
       //return "skyscraper_1";
-      console.log("pclose");
-      
-     // return "halfpage_1";
+      console.log("vvvvvvnkus");
+      var div = document.getElementById('ember4');
+
+      div.innerHTML += '<div id="reply-control" class="closed show-preview ember-view"><div class="grippie"></div></div>';
+      return "halfpage_1";
   },
   @discourseComputed(
     "siteSettings.dfp_publisher_id",
