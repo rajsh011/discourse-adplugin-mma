@@ -17,9 +17,7 @@ export default AdComponent.extend({
   divId(){
       //return "skyscraper_1";
       console.log("vvvvvvnkus");
-      var div = document.getElementById('ember4');
-
-      div.innerHTML += '<div id="reply-control" class="closed show-preview ember-view"><div class="grippie"></div></div>';
+      
       return "halfpage_1";
   },
   @discourseComputed(
