@@ -228,8 +228,9 @@ export default AdComponent.extend({
     let slotNum = getNextSlotNum();
 
     if( placement == "topic-above-post-stream" || placement == "topic-list-top" ){
+      console.log("jjjj");
         return 'leaderboard_1';
-        
+
     }
 
      // return `didna_slot_${slotNum}`;
