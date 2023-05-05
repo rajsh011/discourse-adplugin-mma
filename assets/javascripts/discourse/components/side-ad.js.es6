@@ -13,11 +13,9 @@ export default AdComponent.extend({
       return 'show';
     }
   }, 
-  @discourseComputed()
+  @discourseComputed() 
   divId(){
       //return "skyscraper_1";
-      console.log("vvvvvvnkus");
-      
       return "halfpage_1";
   },
   @discourseComputed(
