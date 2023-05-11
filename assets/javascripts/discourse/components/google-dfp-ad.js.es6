@@ -228,7 +228,7 @@ export default AdComponent.extend({
     let slotNum = getNextSlotNum();
     console.log("11111");
     let finval = this.siteSettings.topic_post_stream_custom2.slotNum;
-    
+    console.log(finval);
     if( placement == "topic-above-post-stream" || placement == "topic-list-top" ){
         return this.siteSettings.topic_post_stream_custom;
         //return '';
