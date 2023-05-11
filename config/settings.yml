@@ -15,6 +15,9 @@ ad_plugin:
   topic_post_stream_custom:
     client: true
     default: "" 
+  topic_post_stream_custom2:
+    client: true
+    default: ""
   no_ads_for_categories:
     client: true
     default: ""

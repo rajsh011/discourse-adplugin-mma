@@ -226,17 +226,17 @@ export default AdComponent.extend({
       return `skyscraper_1`;
     } */
     let slotNum = getNextSlotNum();
-    console.log("11111kus_leaderboard...");
-    console.log(this.siteSettings.topic_post_stream_custom);
+    console.log("11111");
+    let finval = this.siteSettings.topic_post_stream_custom2.slotNum;
+    
     if( placement == "topic-above-post-stream" || placement == "topic-list-top" ){
-        return 'leaderboard_1';
+        return this.siteSettings.topic_post_stream_custom;
         //return '';
     }
-    console.log("kus_leaderboard...");
-   // console.log(inline_${slotNum});
+
      // return `didna_slot_${slotNum}`;
-     return `inline_${slotNum}`;
-      
+     //return `inline_${slotNum}`;
+     return finval;  
   },
 
   @discourseComputed("placement", "showAd")
