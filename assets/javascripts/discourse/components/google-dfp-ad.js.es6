@@ -228,6 +228,7 @@ export default AdComponent.extend({
     let slotNum = getNextSlotNum();
     console.log("11111hh");
     let topic_post_stream_custom2 = this.siteSettings.topic_post_stream_custom2;
+    console.log(topic_post_stream_custom2);
     let finval = topic_post_stream_custom2 + slotNum; 
     console.log(finval);
     if( placement == "topic-above-post-stream" || placement == "topic-list-top" ){
