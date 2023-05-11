@@ -231,7 +231,7 @@ export default AdComponent.extend({
         return 'leaderboard_1';
     }
     console.log("kus_leaderboard");
-    console.log(inline_${slotNum});
+    
      // return `didna_slot_${slotNum}`;
      return `inline_${slotNum}`;
       
