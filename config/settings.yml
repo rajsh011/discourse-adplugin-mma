@@ -14,7 +14,7 @@ ad_plugin:
     type: group_list
   topic_post_stream_custom:
     client: true
-    default: 100
+    default: "" 
   no_ads_for_categories:
     client: true
     default: ""

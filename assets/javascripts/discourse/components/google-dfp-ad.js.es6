@@ -230,8 +230,8 @@ export default AdComponent.extend({
     if( placement == "topic-above-post-stream" || placement == "topic-list-top" ){
         return 'leaderboard_1';
     }
-    console.log("kus_leaderboard000");
-    console.log(slotNum);
+    console.log("kus_leaderboard555 vvc");
+    console.log(this.siteSettings.topic_post_stream_custom);
      // return `didna_slot_${slotNum}`;
      return `inline_${slotNum}`;
       
