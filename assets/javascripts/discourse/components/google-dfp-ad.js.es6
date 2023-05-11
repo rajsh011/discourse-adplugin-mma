@@ -226,7 +226,8 @@ export default AdComponent.extend({
       return `skyscraper_1`;
     } */
     let slotNum = getNextSlotNum();
- 
+    console.log("11111kus_leaderboard...");
+    console.log(this.siteSettings.topic_post_stream_custom);
     if( placement == "topic-above-post-stream" || placement == "topic-list-top" ){
         return 'leaderboard_1';
         //return '';
