@@ -235,7 +235,7 @@ export default AdComponent.extend({
      // return `didna_slot_${slotNum}`;
      return `inline_${slotNum}`;
       
-  },
+  },  
 
   @discourseComputed("placement", "showAd")
   adUnitClass(placement, showAd) {
