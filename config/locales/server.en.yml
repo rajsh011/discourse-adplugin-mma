@@ -5,6 +5,7 @@ en:
     no_ads_for_personal_messages: "Don't show ads when viewing personal messages"
     no_ads_for_restricted_categories: "Don't show ads in categories that aren't visible to everyone."
     no_ads_for_groups: "Don't show ads to users in these groups."
+    topic_post_stream_custom: "Add Topic stream name"
     no_ads_for_categories: "Don't show ads on topic list and topic pages belonging to these categories."
     no_ads_for_tags: "Don't show ads on topic list and topic pages belonging to these tags."
     house_ads_after_nth_post: 'If "Between posts" house ads are defined, show an ad after every N posts, where N is this value.'
