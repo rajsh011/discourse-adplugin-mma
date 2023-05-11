@@ -230,12 +230,12 @@ export default AdComponent.extend({
     if( placement == "topic-above-post-stream" || placement == "topic-list-top" ){
         return 'leaderboard_1';
     }
-    console.log("kus_leaderboard555 vvc");
-    console.log(this.siteSettings.topic_post_stream_custom);
+    console.log("kus_leaderboard...");
+   // console.log(inline_${slotNum});
      // return `didna_slot_${slotNum}`;
      return `inline_${slotNum}`;
       
-  },  
+  },
 
   @discourseComputed("placement", "showAd")
   adUnitClass(placement, showAd) {
