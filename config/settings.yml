@@ -15,9 +15,15 @@ ad_plugin:
   topic_post_stream_custom:
     client: true
     default: "" 
+  dfd_topic_above_post_stream_id:
+    client: true
+    default: "leaderboard_1"
   topic_post_stream_custom2:
     client: true
     default: ""
+  dfd_topic_after_nth_post_id:
+    client: true
+    default: "inline_"
   no_ads_for_categories:
     client: true
     default: ""

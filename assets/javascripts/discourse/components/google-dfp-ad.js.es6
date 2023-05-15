@@ -227,13 +227,12 @@ export default AdComponent.extend({
     } */
     let slotNum = getNextSlotNum();   
     
-    let topic_post_stream_custom2 = this.siteSettings.topic_post_stream_custom2;
+    let id_for_ad_after_nth_post = this.siteSettings.dfd_topic_after_nth_post_id;
     
-    let finval = topic_post_stream_custom2 + slotNum; 
+    let finval = id_for_ad_after_nth_post + slotNum; 
     
     if( placement == "topic-above-post-stream" || placement == "topic-list-top" ){
-        return this.siteSettings.topic_post_stream_custom;
-        //return '';
+        return this.siteSettings.dfd_topic_above_post_stream_id;
     }
 
      // return `didna_slot_${slotNum}`;
